@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Colouring service — Monsuki</title>
+  <meta name="description" content="Bespoke colour for your Monsuki hair, finished by hand in our studio.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@400;500&display=swap">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="config.js"></script>
+</head>
+<body>
+  <div data-section="header"></div>
+
+  <main id="main">
+    <!-- Section: editorial hero (SHOPIFY: sections/image-with-text.liquid) -->
+    <section class="edit-hero">
+      <div class="edit-hero__media">
+        <span class="ph" role="img" aria-label="Model with glossy honey-blonde hair, editorial portrait">
+          <span class="ph__tag">Image placeholder</span>
+          <span class="ph__shot">Editorial portrait: model with deep skin and glossy honey-blonde silk straight hair, looking over her shoulder, warm ivory light.</span>
+        </span>
+      </div>
+      <div class="edit-hero__copy on-dark">
+        <p class="eyebrow">The colour studio</p>
+        <h1>Your colour, made by hand</h1>
+        <p class="lede">Bespoke colour for the Monsuki hair you already love. Our colourists work strand by strand, so the shade is rich, even and kind to the hair.</p>
+        <hr class="rule">
+        <p class="small" style="color:var(--on-dark-muted)">Reserved for hair bought from Monsuki — so we can promise the result.</p>
+        <div class="edit-hero__actions">
+          <a class="btn btn--light" href="#brief">Begin your colour brief</a>
+          <a class="link" href="#work">See our colour work</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: before/after gallery (SHOPIFY: sections/before-after.liquid, blocks) -->
+    <section class="section" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <div class="carousel-head">
+          <div class="section-head" style="margin:0">
+            <p class="eyebrow">Before &amp; after</p>
+            <h2 id="work-title">Colour work from the studio</h2>
+          </div>
+          <div class="carousel-nav" style="color:var(--onyx)">
+            <button type="button" data-ba-dir="-1" aria-label="Show previous colour work"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#chevron-left"></use></svg></button>
+            <button type="button" data-ba-dir="1" aria-label="Show more colour work"><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#chevron-right"></use></svg></button>
+          </div>
+        </div>
+        <div class="track" data-ba-track tabindex="0" aria-label="Before and after colour work, scroll sideways"></div>
+      </div>
+    </section>
+
+    <!-- Section: intake form (Form — wizard) -->
+    <section class="section section--tone" id="brief" aria-labelledby="brief-title">
+      <div class="container intake-layout">
+        <div class="steps-intro">
+          <p class="eyebrow">Your colour brief</p>
+          <h2 id="brief-title">Tell us the colour you’re dreaming of</h2>
+          <p class="lede">Three short steps. Your colourist reads every brief personally and replies with a confirmed price and timing.</p>
+          <ol class="how">
+            <li><span><strong>Share your brief.</strong> Your order, the hair, and the shade you love.</span></li>
+            <li><span><strong>We confirm.</strong> Price and timing, by email, before anything begins.</span></li>
+            <li><span><strong>We colour and return.</strong> Finished by hand and checked in daylight.</span></li>
+          </ol>
+        </div>
+        <div data-section="intake"></div>
+      </div>
+    </section>
+
+    <!-- Section: aftercare products (SHOPIFY: sections/featured-collection.liquid) -->
+    <section class="section" aria-labelledby="care-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Aftercare</p>
+          <h2 id="care-title">For the best colour guarantee</h2>
+          <p class="lede">Coloured hair asks for gentle care. These three keep the shade rich and the hair soft between visits.</p>
+        </div>
+        <div data-section="aftercare"></div>
+      </div>
+    </section>
+  </main>
+
+  <div data-section="footer"></div>
+  <script type="module" src="assets/js/pages/colouring.js"></script>
+</body>
+</html>

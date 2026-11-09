@@ -1,0 +1,1362 @@
+{
+  "categories": [
+    {
+      "id": "bundles",
+      "label": "Bundles",
+      "shot": "Three bundles in a soft fan, ivory linen, natural window light."
+    },
+    {
+      "id": "wigs",
+      "label": "HD lace wigs",
+      "shot": "A wig on an ivory mannequin, half in shadow, editorial still life."
+    },
+    {
+      "id": "frontals-closures",
+      "label": "HD lace frontals & closures",
+      "shot": "A frontal laid flat with the lace catching the light."
+    },
+    {
+      "id": "ponytails",
+      "label": "Ponytails",
+      "shot": "A long ponytail draped over a travertine plinth."
+    },
+    {
+      "id": "aftercare",
+      "label": "Aftercare",
+      "shot": "Three aftercare bottles grouped on travertine, warm light.",
+      "hiddenInShop": true
+    }
+  ],
+  "products": [
+    {
+      "handle": "silk-straight-bundles",
+      "title": "Silk Straight Bundles",
+      "category": "bundles",
+      "texture": "silk-straight",
+      "textureLabel": "Silk Straight",
+      "textureFamily": "straight",
+      "summary": "Jet-black, glass-smooth and weightless.",
+      "description": "Our Silk Straight bundles fall like liquid silk and hold a mirror shine from root to tip. Raw Vietnamese hair, double drawn so the ends are as full as the roots — no thin, wispy finish.",
+      "specs": {
+        "origin": "Vietnam — raw, single-donor hair, cuticles aligned",
+        "texture": "Silk Straight",
+        "density": "Double drawn · 100 g per bundle",
+        "laceType": "Not applicable (weft)",
+        "lifespan": "2–3 years with care"
+      },
+      "care": [
+        "Co-wash weekly with a sulphate-free shampoo; detangle from the ends upwards.",
+        "Seal with a light serum and air-dry where you can.",
+        "Sleep in a silk scarf or bonnet to keep the cuticle smooth."
+      ],
+      "option": {
+        "name": "Length"
+      },
+      "variants": [
+        {
+          "value": 12,
+          "label": "12″",
+          "price": 89
+        },
+        {
+          "value": 14,
+          "label": "14″",
+          "price": 101
+        },
+        {
+          "value": 16,
+          "label": "16″",
+          "price": 113
+        },
+        {
+          "value": 18,
+          "label": "18″",
+          "price": 125
+        },
+        {
+          "value": 20,
+          "label": "20″",
+          "price": 137
+        },
+        {
+          "value": 22,
+          "label": "22″",
+          "price": 149
+        },
+        {
+          "value": 24,
+          "label": "24″",
+          "price": 161
+        },
+        {
+          "value": 26,
+          "label": "26″",
+          "price": 173
+        },
+        {
+          "value": 28,
+          "label": "28″",
+          "price": 185
+        },
+        {
+          "value": 30,
+          "label": "30″",
+          "price": 197
+        }
+      ],
+      "quantity": {
+        "label": "Bundles",
+        "default": 3,
+        "min": 1,
+        "max": 4,
+        "note": "Most full looks use 3 bundles."
+      },
+      "colourable": true,
+      "completeTheLook": [
+        "silk-straight-hd-lace-frontal",
+        "silk-straight-hd-lace-closure"
+      ],
+      "images": [
+        {
+          "type": "product",
+          "src": "",
+          "alt": "Silk Straight bundles, product shot",
+          "shot": "Three silk straight bundles fanned out on warm ivory linen, soft daylight from the left."
+        },
+        {
+          "type": "model",
+          "src": "",
+          "alt": "Model wearing Silk Straight bundles",
+          "shot": "Model with deep brown skin wearing silk straight hair at 24″, three-quarter view, onyx backdrop."
+        },
+        {
+          "type": "model",
+          "src": "",
+          "alt": "Close-up of Silk Straight hair in motion",
+          "shot": "Close-up of the hair's movement as the model turns — shows shine and smooth fall."
+        },
+        {
+          "type": "product",
+          "src": "",
+          "alt": "Detail of the Silk Straight weft and ends",
+          "shot": "Macro detail of the weft and double-drawn ends against ivory."
+        }
+      ]
+    },
+    {
+      "handle": "deep-wave-bundles",
+      "title": "Deep Wave Bundles",
+      "category": "bundles",
+      "texture": "deep-wave",
+      "textureLabel": "Deep Wave",
+      "textureFamily": "curly",
+      "summary": "Soft, defined waves with natural bounce.",
+      "description": "Deep Wave bundles hold an S-shaped wave that stays defined wash after wash. Double drawn for fullness, with a natural lustre that blends seamlessly with relaxed or pressed hair.",
+      "specs": {
+        "origin": "Vietnam — raw, single-donor hair, cuticles aligned",
+        "texture": "Deep Wave",
+        "density": "Double drawn · 100 g per bundle",
+        "laceType": "Not applicable (weft)",
+        "lifespan": "2–3 years with care"
+      },
+      "care": [
+        "Co-wash weekly with a sulphate-free shampoo; detangle from the ends upwards.",
+        "Seal with a light serum and air-dry where you can.",
+        "Sleep in a silk scarf or bonnet to keep the cuticle smooth."
+      ],
+      "option": {
+        "name": "Length"
+      },
+      "variants": [
+        {
+          "value": 12,
+          "label": "12″",
+          "price": 89
+        },
+        {
+          "value": 14,
+          "label": "14″",
+          "price": 101
+        },
+        {
+          "value": 16,
+          "label": "16″",
+          "price": 113
+        },
+        {
+          "value": 18,
+          "label": "18″",
+          "price": 125
+        },
+        {
+          "value": 20,
+          "label": "20″",
+          "price": 137
+        },
+        {
+          "value": 22,
+          "label": "22″",
+          "price": 149
+        },
+        {
+          "value": 24,
+          "label": "24″",
+          "price": 161
+        },
+        {
+          "value": 26,
+          "label": "26″",
+          "price": 173
+        },
+        {
+          "value": 28,
+          "label": "28″",
+          "price": 185
+        },
+        {
+          "value": 30,
+          "label": "30″",
+          "price": 197
+        }
+      ],
+      "quantity": {
+        "label": "Bundles",
+        "default": 3,
+        "min": 1,
+        "max": 4,
+        "note": "Most full looks use 3 bundles."
+      },
+      "colourable": true,
+      "completeTheLook": [
+        "deep-wave-hd-lace-frontal"
+      ],
+      "images": [
+        {
+          "type": "product",
+          "src": "",
+          "alt": "Deep Wave bundles, product shot",
+          "shot": "Three deep wave bundles fanned out on warm ivory linen, soft daylight from the left."
+        },
+        {
+          "type": "model",
+          "src": "",
+          "alt": "Model wearing Deep Wave bundles",
+          "shot": "Model with deep brown skin wearing deep wave hair at 24″, three-quarter view, onyx backdrop."
+        },
+        {
+          "type": "model",
+          "src": "",
+          "alt": "Close-up of Deep Wave hair in motion",
+          "shot": "Close-up of the hair's movement as the model turns — shows shine and wave."
+        },
+        {
+          "type": "product",
+          "src": "",
+          "alt": "Detail of the Deep Wave weft and ends",
+          "shot": "Macro detail of the weft and double-drawn ends against ivory."
+        }
+      ]
+    },
+    {
+      "handle": "kinky-curly-bundles",
+      "title": "Kinky Curly Bundles",
+      "category": "bundles",
+      "texture": "kinky-curly",
+      "textureLabel": "Kinky Curly",
+      "textureFamily": "curly",
+      "summary": "Lush, springy curls with real volume.",
+      "description": "Kinky Curly bundles match the coil pattern of natural hair — tight, defined and full of life. Raw Vietnamese hair that blends beautifully with your leave-out.",
+      "specs": {
+        "origin": "Vietnam — raw, single-donor hair, cuticles aligned",
+        "texture": "Kinky Curly",
+        "density": "Double drawn · 100 g per bundle",
+        "laceType": "Not applicable (weft)",
+        "lifespan": "2–3 years with care"
+      },
+      "care": [
+        "Co-wash weekly with a sulphate-free shampoo; detangle from the ends upwards.",
+        "Seal with a light serum and air-dry where you can.",
+        "Sleep in a silk scarf or bonnet to keep the cuticle smooth."
+      ],
+      "option": {
+        "name": "Length"
+      },
+      "variants": [
+        {
+          "value": 12,
+          "label": "12″",
+          "price": 89
+        },
+        {
+          "value": 14,
+          "label": "14″",
+          "price": 101
+        },
+        {
+          "value": 16,
+          "label": "16″",
+          "price": 113
+        },
+        {
+          "value": 18,
+          "label": "18″",
+          "price": 125
+        },
+        {
+          "value": 20,
+          "label": "20″",
+          "price": 137
+        },
+        {
+          "value": 22,
+          "label": "22″",
+          "price": 149
+        },
+        {
+          "value": 24,
+          "label": "24″",
+          "price": 161
+        },
+        {
+          "value": 26,
+          "label": "26″",
+          "price": 173
+        },
+        {
+          "value": 28,
+          "label": "28″",
+          "price": 185
+        },
+        {
+          "value": 30,
+          "label": "30″",
+          "price": 197
+        }
+      ],
+      "quantity": {
+        "label": "Bundles",
+        "default": 3,
+        "min": 1,
+        "max": 4,
+        "note": "Most full looks use 3 bundles."
+      },
+      "colourable": true,
+      "completeTheLook": [
+        "kinky-curly-hd-lace-closure"
+      ],
+      "images": [
+        {
+          "type": "product",
+          "src": "",
+          "alt": "Kinky Curly bundles, product shot",
+          "shot": "Three kinky curly bundles fanned out on warm ivory linen, soft daylight from the left."
+        },
+        {
+          "type": "model",
+          "src": "",
+          "alt": "Model wearing Kinky Curly bundles",
+          "shot": "Model with deep brown skin wearing kinky curly hair at 24″, three-quarter view, onyx backdrop."
+        },
+        {
+          "type": "model",
+          "src": "",
+          "alt": "Close-up of Kinky Curly hair in motion",
+          "shot": "Close-up of the hair's movement as the model turns — shows shine and wave."
+        },
+        {
+          "type": "product",
+          "src": "",
+          "alt": "Detail of the Kinky Curly weft and ends",
+          "shot": "Macro detail of the weft and double-drawn ends against ivory."
+        }
+      ]
+    },
+    {
+      "handle": "silk-straight-hd-lace-wig",
+      "title": "Silk Straight HD Lace Wig",
+      "category": "wigs",
+      "texture": "silk-straight",
+      "textureLabel": "Silk Straight",
+      "textureFamily": "straight",
+      "summary": "13×4 HD lace that melts into every skin tone.",
+      "description": "A ready-to-wear silk straight unit on transparent HD lace, pre-plucked with a natural hairline and bleached knots. Fitted to your measurements or cap size, so it sits flat and secure from the first wear.",
+      "specs": {
+        "origin": "Vietnam — raw, single-donor hair, cuticles aligned",
+        "texture": "Silk Straight",
+        "density": "200% density",
+        "laceType": "13×4 HD lace frontal, pre-plucked, bleached knots",
+        "lifespan": "2–3 years with care"
+      },
+      "care": [
+        "Wash every 10–14 wears; let it air-dry on a wig stand.",
+        "Use a lace-safe adhesive remover and never pull at the lace.",
+        "Store on a stand or in its silk bag between wears."
+      ],
+      "option": {
+        "name": "Length"
+      },
+      "variants": [
+        {
+          "value": 14,
+          "label": "14″",
+          "price": 385
+        },
+        {
+          "value": 16,
+          "label": "16″",
+          "price": 420
+        },
+        {
+          "value": 18,
+          "label": "18″",
+          "price": 455
+        },
+        {
+          "value": 20,
+          "label": "20″",
+          "price": 490
+        },
+        {
+          "value": 22,
+          "label": "22″",
+          "price": 525
+        },
+        {
+          "value": 24,
+          "label": "24″",
+          "price": 560
+        },
+        {
+          "value": 26,
+          "label": "26″",
+          "price": 595
+        },
+        {
+          "value": 28,
+          "label": "28″",
+          "price": 630
+        },
+        {
+          "value": 30,
+          "label": "30″",
+          "price": 665
+        }
+      ],
+      "capSizes": true,
+      "colourable": true,
+      "images": [
+        {
+          "type": "product",
+          "src": "",
+          "alt": "Silk Straight HD lace wig on a mannequin",
+          "shot": "Silk Straight wig on a matte ivory mannequin head, side-lit, against a warm ivory wall."
+        },
+        {
+          "type": "model",
+          "src": "",
+          "alt": "Model wearing the Silk Straight HD lace wig",
+          "shot": "Model with deep skin wearing the silk straight wig, hairline visible, looking past camera; espresso backdrop."
+        },
+        {
+          "type": "model",
+          "src": "",
+          "alt": "Close-up of the HD lace hairline",
+          "shot": "Close-up of the HD lace hairline at the temple — no visible lace edge."
+        },
+        {
+          "type": "product",
+          "src": "",
+          "alt": "Inside of the wig cap",
+          "shot": "Inside of the cap laid flat: combs, adjustable strap and lace, on ivory."
+        }
+      ]
+    },
+    {
+      "handle": "deep-wave-hd-lace-wig",
+      "title": "Deep Wave HD Lace Wig",
+      "category": "wigs",
+      "texture": "deep-wave",
+      "textureLabel": "Deep Wave",
+      "textureFamily": "curly",
+      "summary": "13×4 HD lace that melts into every skin tone.",
+      "description": "A ready-to-wear deep wave unit on transparent HD lace, pre-plucked with a natural hairline and bleached knots. Fitted to your measurements or cap size, so it sits flat and secure from the first wear.",
+      "specs": {
+        "origin": "Vietnam — raw, single-donor hair, cuticles aligned",
+        "texture": "Deep Wave",
+        "density": "200% density",
+        "laceType": "13×4 HD lace frontal, pre-plucked, bleached knots",
+        "lifespan": "2–3 years with care"
+      },
+      "care": [
+        "Wash every 10–14 wears; let it air-dry on a wig stand.",
+        "Use a lace-safe adhesive remover and never pull at the lace.",
+        "Store on a stand or in its silk bag between wears."
+      ],
+      "option": {
+        "name": "Length"
+      },
+      "variants": [
+        {
+          "value": 14,
+          "label": "14″",
+          "price": 385
+        },
+        {
+          "value": 16,
+          "label": "16″",
+          "price": 420
+        },
+        {
+          "value": 18,
+          "label": "18″",
+          "price": 455
+        },
+        {
+          "value": 20,
+          "label": "20″",
+          "price": 490
+        },
+        {
+          "value": 22,
+          "label": "22″",
+          "price": 525
+        },
+        {
+          "value": 24,
+          "label": "24″",
+          "price": 560
+        },
+        {
+          "value": 26,
+          "label": "26″",
+          "price": 595
+        },
+        {
+          "value": 28,
+          "label": "28″",
+          "price": 630
+        },
+        {
+          "value": 30,
+          "label": "30″",
+          "price": 665
+        }
+      ],
+      "capSizes": true,
+      "colourable": true,
+      "images": [
+        {
+          "type": "product",
+          "src": "",
+          "alt": "Deep Wave HD lace wig on a mannequin",
+          "shot": "Deep Wave wig on a matte ivory mannequin head, side-lit, against a warm ivory wall."
+        },
+        {
+          "type": "model",
+          "src": "",
+          "alt": "Model wearing the Deep Wave HD lace wig",
+          "shot": "Model with deep skin wearing the deep wave wig, hairline visible, looking past camera; espresso backdrop."
+        },
+        {
+          "type": "model",
+          "src": "",
+          "alt": "Close-up of the HD lace hairline",
+          "shot": "Close-up of the HD lace hairline at the temple — no visible lace edge."
+        },
+        {
+          "type": "product",
+          "src": "",
+          "alt": "Inside of the wig cap",
+          "shot": "Inside of the cap laid flat: combs, adjustable strap and lace, on ivory."
+        }
+      ]
+    },
+    {
+      "handle": "kinky-curly-hd-lace-wig",
+      "title": "Kinky Curly HD Lace Wig",
+      "category": "wigs",
+      "texture": "kinky-curly",
+      "textureLabel": "Kinky Curly",
+      "textureFamily": "curly",
+      "summary": "13×4 HD lace that melts into every skin tone.",
+      "description": "A ready-to-wear kinky curly unit on transparent HD lace, pre-plucked with a natural hairline and bleached knots. Fitted to your measurements or cap size, so it sits flat and secure from the first wear.",
+      "specs": {
+        "origin": "Vietnam — raw, single-donor hair, cuticles aligned",
+        "texture": "Kinky Curly",
+        "density": "200% density",
+        "laceType": "13×4 HD lace frontal, pre-plucked, bleached knots",
+        "lifespan": "2–3 years with care"
+      },
+      "care": [
+        "Wash every 10–14 wears; let it air-dry on a wig stand.",
+        "Use a lace-safe adhesive remover and never pull at the lace.",
+        "Store on a stand or in its silk bag between wears."
+      ],
+      "option": {
+        "name": "Length"
+      },
+      "variants": [
+        {
+          "value": 14,
+          "label": "14″",
+          "price": 385
+        },
+        {
+          "value": 16,
+          "label": "16″",
+          "price": 420
+        },
+        {
+          "value": 18,
+          "label": "18″",
+          "price": 455
+        },
+        {
+          "value": 20,
+          "label": "20″",
+          "price": 490
+        },
+        {
+          "value": 22,
+          "label": "22″",
+          "price": 525
+        },
+        {
+          "value": 24,
+          "label": "24″",
+          "price": 560
+        },
+        {
+          "value": 26,
+          "label": "26″",
+          "price": 595
+        },
+        {
+          "value": 28,
+          "label": "28″",
+          "price": 630
+        },
+        {
+          "value": 30,
+          "label": "30″",
+          "price": 665
+        }
+      ],
+      "capSizes": true,
+      "colourable": true,
+      "images": [
+        {
+          "type": "product",
+          "src": "",
+          "alt": "Kinky Curly HD lace wig on a mannequin",
+          "shot": "Kinky Curly wig on a matte ivory mannequin head, side-lit, against a warm ivory wall."
+        },
+        {
+          "type": "model",
+          "src": "",
+          "alt": "Model wearing the Kinky Curly HD lace wig",
+          "shot": "Model with deep skin wearing the kinky curly wig, hairline visible, looking past camera; espresso backdrop."
+        },
+        {
+          "type": "model",
+          "src": "",
+          "alt": "Close-up of the HD lace hairline",
+          "shot": "Close-up of the HD lace hairline at the temple — no visible lace edge."
+        },
+        {
+          "type": "product",
+          "src": "",
+          "alt": "Inside of the wig cap",
+          "shot": "Inside of the cap laid flat: combs, adjustable strap and lace, on ivory."
+        }
+      ]
+    },
+    {
+      "handle": "silk-straight-hd-lace-frontal",
+      "title": "Silk Straight HD Lace Frontal 13×4",
+      "category": "frontals-closures",
+      "texture": "silk-straight",
+      "textureLabel": "Silk Straight",
+      "textureFamily": "straight",
+      "summary": "13×4 HD lace with a pre-plucked, natural hairline.",
+      "description": "Our 13×4 HD lace frontal disappears on the skin, with a pre-plucked hairline and bleached knots. Made to match our Silk Straight bundles exactly — same donor hair, same lustre.",
+      "specs": {
+        "origin": "Vietnam — raw, single-donor hair, cuticles aligned",
+        "texture": "Silk Straight",
+        "density": "150% density",
+        "laceType": "13×4 HD lace, pre-plucked, bleached knots",
+        "lifespan": "1–2 years with care"
+      },
+      "care": [
+        "Remove adhesive gently with a lace-safe remover.",
+        "Wash with cool water and pat the lace dry — never rub.",
+        "Store flat in its silk bag."
+      ],
+      "option": {
+        "name": "Length"
+      },
+      "variants": [
+        {
+          "value": 12,
+          "label": "12″",
+          "price": 145
+        },
+        {
+          "value": 14,
+          "label": "14″",
+          "price": 160
+        },
+        {
+          "value": 16,
+          "label": "16″",
+          "price": 175
+        },
+        {
+          "value": 18,
+          "label": "18″",
+          "price": 190
+        },
+        {
+          "value": 20,
+          "label": "20″",
+          "price": 205
+        },
+        {
+          "value": 22,
+          "label": "22″",
+          "price": 220
+        }
+      ],
+      "colourable": true,
+      "images": [
+        {
+          "type": "product",
+          "src": "",
+          "alt": "Silk Straight HD lace frontal",
+          "shot": "Silk Straight frontal laid flat on ivory linen, lace facing camera."
+        },
+        {
+          "type": "model",
+          "src": "",
+          "alt": "Model wearing the Silk Straight frontal",
+          "shot": "Model wearing a silk straight install with the frontal; a centre part, soft daylight."
+        },
+        {
+          "type": "product",
+          "src": "",
+          "alt": "Close-up of the HD lace on skin",
+          "shot": "Macro of the knots and lace against a hand with deep brown skin."
+        }
+      ]
+    },
+    {
+      "handle": "silk-straight-hd-lace-closure",
+      "title": "Silk Straight HD Lace Closure 5×5",
+      "category": "frontals-closures",
+      "texture": "silk-straight",
+      "textureLabel": "Silk Straight",
+      "textureFamily": "straight",
+      "summary": "5×5 HD lace with a pre-plucked, natural hairline.",
+      "description": "Our 5×5 HD lace closure disappears on the skin, with a pre-plucked hairline and bleached knots. Made to match our Silk Straight bundles exactly — same donor hair, same lustre.",
+      "specs": {
+        "origin": "Vietnam — raw, single-donor hair, cuticles aligned",
+        "texture": "Silk Straight",
+        "density": "150% density",
+        "laceType": "5×5 HD lace, pre-plucked, bleached knots",
+        "lifespan": "1–2 years with care"
+      },
+      "care": [
+        "Remove adhesive gently with a lace-safe remover.",
+        "Wash with cool water and pat the lace dry — never rub.",
+        "Store flat in its silk bag."
+      ],
+      "option": {
+        "name": "Length"
+      },
+      "variants": [
+        {
+          "value": 12,
+          "label": "12″",
+          "price": 115
+        },
+        {
+          "value": 14,
+          "label": "14″",
+          "price": 127
+        },
+        {
+          "value": 16,
+          "label": "16″",
+          "price": 139
+        },
+        {
+          "value": 18,
+          "label": "18″",
+          "price": 151
+        },
+        {
+          "value": 20,
+          "label": "20″",
+          "price": 163
+        },
+        {
+          "value": 22,
+          "label": "22″",
+          "price": 175
+        }
+      ],
+      "colourable": true,
+      "images": [
+        {
+          "type": "product",
+          "src": "",
+          "alt": "Silk Straight HD lace closure",
+          "shot": "Silk Straight closure laid flat on ivory linen, lace facing camera."
+        },
+        {
+          "type": "model",
+          "src": "",
+          "alt": "Model wearing the Silk Straight closure",
+          "shot": "Model wearing a silk straight install with the closure; a centre part, soft daylight."
+        },
+        {
+          "type": "product",
+          "src": "",
+          "alt": "Close-up of the HD lace on skin",
+          "shot": "Macro of the knots and lace against a hand with deep brown skin."
+        }
+      ]
+    },
+    {
+      "handle": "deep-wave-hd-lace-frontal",
+      "title": "Deep Wave HD Lace Frontal 13×4",
+      "category": "frontals-closures",
+      "texture": "deep-wave",
+      "textureLabel": "Deep Wave",
+      "textureFamily": "curly",
+      "summary": "13×4 HD lace with a pre-plucked, natural hairline.",
+      "description": "Our 13×4 HD lace frontal disappears on the skin, with a pre-plucked hairline and bleached knots. Made to match our Deep Wave bundles exactly — same donor hair, same lustre.",
+      "specs": {
+        "origin": "Vietnam — raw, single-donor hair, cuticles aligned",
+        "texture": "Deep Wave",
+        "density": "150% density",
+        "laceType": "13×4 HD lace, pre-plucked, bleached knots",
+        "lifespan": "1–2 years with care"
+      },
+      "care": [
+        "Remove adhesive gently with a lace-safe remover.",
+        "Wash with cool water and pat the lace dry — never rub.",
+        "Store flat in its silk bag."
+      ],
+      "option": {
+        "name": "Length"
+      },
+      "variants": [
+        {
+          "value": 12,
+          "label": "12″",
+          "price": 145
+        },
+        {
+          "value": 14,
+          "label": "14″",
+          "price": 160
+        },
+        {
+          "value": 16,
+          "label": "16″",
+          "price": 175
+        },
+        {
+          "value": 18,
+          "label": "18″",
+          "price": 190
+        },
+        {
+          "value": 20,
+          "label": "20″",
+          "price": 205
+        },
+        {
+          "value": 22,
+          "label": "22″",
+          "price": 220
+        }
+      ],
+      "colourable": true,
+      "images": [
+        {
+          "type": "product",
+          "src": "",
+          "alt": "Deep Wave HD lace frontal",
+          "shot": "Deep Wave frontal laid flat on ivory linen, lace facing camera."
+        },
+        {
+          "type": "model",
+          "src": "",
+          "alt": "Model wearing the Deep Wave frontal",
+          "shot": "Model wearing a deep wave install with the frontal; a centre part, soft daylight."
+        },
+        {
+          "type": "product",
+          "src": "",
+          "alt": "Close-up of the HD lace on skin",
+          "shot": "Macro of the knots and lace against a hand with deep brown skin."
+        }
+      ]
+    },
+    {
+      "handle": "kinky-curly-hd-lace-closure",
+      "title": "Kinky Curly HD Lace Closure 5×5",
+      "category": "frontals-closures",
+      "texture": "kinky-curly",
+      "textureLabel": "Kinky Curly",
+      "textureFamily": "curly",
+      "summary": "5×5 HD lace with a pre-plucked, natural hairline.",
+      "description": "Our 5×5 HD lace closure disappears on the skin, with a pre-plucked hairline and bleached knots. Made to match our Kinky Curly bundles exactly — same donor hair, same lustre.",
+      "specs": {
+        "origin": "Vietnam — raw, single-donor hair, cuticles aligned",
+        "texture": "Kinky Curly",
+        "density": "150% density",
+        "laceType": "5×5 HD lace, pre-plucked, bleached knots",
+        "lifespan": "1–2 years with care"
+      },
+      "care": [
+        "Remove adhesive gently with a lace-safe remover.",
+        "Wash with cool water and pat the lace dry — never rub.",
+        "Store flat in its silk bag."
+      ],
+      "option": {
+        "name": "Length"
+      },
+      "variants": [
+        {
+          "value": 12,
+          "label": "12″",
+          "price": 115
+        },
+        {
+          "value": 14,
+          "label": "14″",
+          "price": 127
+        },
+        {
+          "value": 16,
+          "label": "16″",
+          "price": 139
+        },
+        {
+          "value": 18,
+          "label": "18″",
+          "price": 151
+        },
+        {
+          "value": 20,
+          "label": "20″",
+          "price": 163
+        },
+        {
+          "value": 22,
+          "label": "22″",
+          "price": 175
+        }
+      ],
+      "colourable": true,
+      "images": [
+        {
+          "type": "product",
+          "src": "",
+          "alt": "Kinky Curly HD lace closure",
+          "shot": "Kinky Curly closure laid flat on ivory linen, lace facing camera."
+        },
+        {
+          "type": "model",
+          "src": "",
+          "alt": "Model wearing the Kinky Curly closure",
+          "shot": "Model wearing a kinky curly install with the closure; a centre part, soft daylight."
+        },
+        {
+          "type": "product",
+          "src": "",
+          "alt": "Close-up of the HD lace on skin",
+          "shot": "Macro of the knots and lace against a hand with deep brown skin."
+        }
+      ]
+    },
+    {
+      "handle": "sleek-straight-ponytail",
+      "title": "Sleek Straight Ponytail",
+      "category": "ponytails",
+      "texture": "silk-straight",
+      "textureLabel": "Silk Straight",
+      "textureFamily": "straight",
+      "summary": "Instant length and drama in under five minutes.",
+      "description": "A drawstring ponytail in silk straight hair with two hidden combs, so it sits high and secure all evening. Wrap the attached strand around the base for an invisible finish.",
+      "specs": {
+        "origin": "Vietnam — raw, single-donor hair, cuticles aligned",
+        "texture": "Silk Straight",
+        "density": "120 g",
+        "laceType": "Drawstring with two combs",
+        "lifespan": "1–2 years with care"
+      },
+      "care": [
+        "Brush gently from the ends upwards.",
+        "Wash only when needed; hang to dry.",
+        "Store in its silk bag to prevent tangling."
+      ],
+      "option": {
+        "name": "Length"
+      },
+      "variants": [
+        {
+          "value": 16,
+          "label": "16″",
+          "price": 129
+        },
+        {
+          "value": 18,
+          "label": "18″",
+          "price": 143
+        },
+        {
+          "value": 20,
+          "label": "20″",
+          "price": 157
+        },
+        {
+          "value": 22,
+          "label": "22″",
+          "price": 171
+        },
+        {
+          "value": 24,
+          "label": "24″",
+          "price": 185
+        },
+        {
+          "value": 26,
+          "label": "26″",
+          "price": 199
+        },
+        {
+          "value": 28,
+          "label": "28″",
+          "price": 213
+        },
+        {
+          "value": 30,
+          "label": "30″",
+          "price": 227
+        }
+      ],
+      "colourable": true,
+      "images": [
+        {
+          "type": "product",
+          "src": "",
+          "alt": "Sleek Straight Ponytail, product shot",
+          "shot": "Sleek Straight Ponytail coiled on ivory linen, the drawstring visible."
+        },
+        {
+          "type": "model",
+          "src": "",
+          "alt": "Model wearing the Sleek Straight Ponytail",
+          "shot": "Back view of a model wearing a high silk straight ponytail, onyx backdrop, rim light."
+        },
+        {
+          "type": "model",
+          "src": "",
+          "alt": "Side view of the ponytail base",
+          "shot": "Side profile showing the wrapped base and length."
+        }
+      ]
+    },
+    {
+      "handle": "kinky-curly-ponytail",
+      "title": "Kinky Curly Drawstring Ponytail",
+      "category": "ponytails",
+      "texture": "kinky-curly",
+      "textureLabel": "Kinky Curly",
+      "textureFamily": "curly",
+      "summary": "Instant length and drama in under five minutes.",
+      "description": "A drawstring ponytail in kinky curly hair with two hidden combs, so it sits high and secure all evening. Wrap the attached strand around the base for an invisible finish.",
+      "specs": {
+        "origin": "Vietnam — raw, single-donor hair, cuticles aligned",
+        "texture": "Kinky Curly",
+        "density": "120 g",
+        "laceType": "Drawstring with two combs",
+        "lifespan": "1–2 years with care"
+      },
+      "care": [
+        "Brush gently from the ends upwards.",
+        "Wash only when needed; hang to dry.",
+        "Store in its silk bag to prevent tangling."
+      ],
+      "option": {
+        "name": "Length"
+      },
+      "variants": [
+        {
+          "value": 16,
+          "label": "16″",
+          "price": 139
+        },
+        {
+          "value": 18,
+          "label": "18″",
+          "price": 153
+        },
+        {
+          "value": 20,
+          "label": "20″",
+          "price": 167
+        },
+        {
+          "value": 22,
+          "label": "22″",
+          "price": 181
+        },
+        {
+          "value": 24,
+          "label": "24″",
+          "price": 195
+        },
+        {
+          "value": 26,
+          "label": "26″",
+          "price": 209
+        },
+        {
+          "value": 28,
+          "label": "28″",
+          "price": 223
+        },
+        {
+          "value": 30,
+          "label": "30″",
+          "price": 237
+        }
+      ],
+      "colourable": true,
+      "images": [
+        {
+          "type": "product",
+          "src": "",
+          "alt": "Kinky Curly Drawstring Ponytail, product shot",
+          "shot": "Kinky Curly Drawstring Ponytail coiled on ivory linen, the drawstring visible."
+        },
+        {
+          "type": "model",
+          "src": "",
+          "alt": "Model wearing the Kinky Curly Drawstring Ponytail",
+          "shot": "Back view of a model wearing a high kinky curly ponytail, onyx backdrop, rim light."
+        },
+        {
+          "type": "model",
+          "src": "",
+          "alt": "Side view of the ponytail base",
+          "shot": "Side profile showing the wrapped base and length."
+        }
+      ]
+    },
+    {
+      "handle": "colour-care-shampoo",
+      "title": "Colour Care Shampoo",
+      "category": "aftercare",
+      "texture": null,
+      "textureLabel": null,
+      "textureFamily": null,
+      "summary": "Sulphate-free cleanse that protects colour.",
+      "description": "A gentle, sulphate-free shampoo that cleanses without stripping colour or drying the hair. Made for coloured human hair extensions.",
+      "specs": {
+        "origin": "Formulated in the UK",
+        "texture": "Suitable for every texture",
+        "density": "—",
+        "laceType": "—",
+        "lifespan": "12 months after opening"
+      },
+      "care": [
+        "Store away from direct sunlight.",
+        "Use with Monsuki colour care for the best colour guarantee."
+      ],
+      "option": {
+        "name": "Size"
+      },
+      "variants": [
+        {
+          "value": "250 ml",
+          "label": "250 ml",
+          "price": 28
+        }
+      ],
+      "colourable": false,
+      "aftercare": true,
+      "images": [
+        {
+          "type": "product",
+          "src": "",
+          "alt": "Colour Care Shampoo bottle",
+          "shot": "Colour Care Shampoo bottle on a travertine ledge, warm side light, ivory background."
+        },
+        {
+          "type": "model",
+          "src": "",
+          "alt": "Colour Care Shampoo being applied",
+          "shot": "Hands with deep brown skin and a neutral manicure applying colour care shampoo to coloured hair."
+        }
+      ]
+    },
+    {
+      "handle": "silk-repair-mask",
+      "title": "Silk Repair Mask",
+      "category": "aftercare",
+      "texture": null,
+      "textureLabel": null,
+      "textureFamily": null,
+      "summary": "Weekly mask that restores softness after colouring.",
+      "description": "A rich weekly treatment that restores softness and shine after colouring, with argan and silk proteins.",
+      "specs": {
+        "origin": "Formulated in the UK",
+        "texture": "Suitable for every texture",
+        "density": "—",
+        "laceType": "—",
+        "lifespan": "12 months after opening"
+      },
+      "care": [
+        "Store away from direct sunlight.",
+        "Use with Monsuki colour care for the best colour guarantee."
+      ],
+      "option": {
+        "name": "Size"
+      },
+      "variants": [
+        {
+          "value": "200 ml",
+          "label": "200 ml",
+          "price": 34
+        }
+      ],
+      "colourable": false,
+      "aftercare": true,
+      "images": [
+        {
+          "type": "product",
+          "src": "",
+          "alt": "Silk Repair Mask bottle",
+          "shot": "Silk Repair Mask bottle on a travertine ledge, warm side light, ivory background."
+        },
+        {
+          "type": "model",
+          "src": "",
+          "alt": "Silk Repair Mask being applied",
+          "shot": "Hands with deep brown skin and a neutral manicure applying silk repair mask to coloured hair."
+        }
+      ]
+    },
+    {
+      "handle": "heat-shield-serum",
+      "title": "Heat Shield Serum",
+      "category": "aftercare",
+      "texture": null,
+      "textureLabel": null,
+      "textureFamily": null,
+      "summary": "Protects colour and shine up to 230°C.",
+      "description": "A weightless serum that shields coloured hair from heat styling up to 230°C, without residue.",
+      "specs": {
+        "origin": "Formulated in the UK",
+        "texture": "Suitable for every texture",
+        "density": "—",
+        "laceType": "—",
+        "lifespan": "12 months after opening"
+      },
+      "care": [
+        "Store away from direct sunlight.",
+        "Use with Monsuki colour care for the best colour guarantee."
+      ],
+      "option": {
+        "name": "Size"
+      },
+      "variants": [
+        {
+          "value": "100 ml",
+          "label": "100 ml",
+          "price": 26
+        }
+      ],
+      "colourable": false,
+      "aftercare": true,
+      "images": [
+        {
+          "type": "product",
+          "src": "",
+          "alt": "Heat Shield Serum bottle",
+          "shot": "Heat Shield Serum bottle on a travertine ledge, warm side light, ivory background."
+        },
+        {
+          "type": "model",
+          "src": "",
+          "alt": "Heat Shield Serum being applied",
+          "shot": "Hands with deep brown skin and a neutral manicure applying heat shield serum to coloured hair."
+        }
+      ]
+    }
+  ],
+  "lookbook": [
+    {
+      "handle": "silk-straight-bundles",
+      "length": 24,
+      "textureFamily": "straight",
+      "shot": "Client mirror selfie: sleek middle part, 24\" silk straight, gold hoops.",
+      "credit": "Shared by a Monsuki client"
+    },
+    {
+      "handle": "kinky-curly-bundles",
+      "length": 20,
+      "textureFamily": "curly",
+      "shot": "Client at a dinner table, full kinky curls framing her face, candlelight.",
+      "credit": "Shared by a Monsuki client"
+    },
+    {
+      "handle": "silk-straight-hd-lace-wig",
+      "length": 28,
+      "textureFamily": "straight",
+      "shot": "Client on a hotel balcony, wind lifting 28\" straight hair.",
+      "credit": "Shared by a Monsuki client"
+    },
+    {
+      "handle": "deep-wave-bundles",
+      "length": 22,
+      "textureFamily": "curly",
+      "shot": "Client in a cream suit, deep waves over one shoulder, city at dusk.",
+      "credit": "Shared by a Monsuki client"
+    },
+    {
+      "handle": "sleek-straight-ponytail",
+      "length": 26,
+      "textureFamily": "straight",
+      "shot": "Client from behind at a gallery, high sleek ponytail.",
+      "credit": "Shared by a Monsuki client"
+    },
+    {
+      "handle": "kinky-curly-hd-lace-wig",
+      "length": 18,
+      "textureFamily": "curly",
+      "shot": "Client laughing in a car, curly wig with a defined hairline.",
+      "credit": "Shared by a Monsuki client"
+    },
+    {
+      "handle": "silk-straight-hd-lace-closure",
+      "length": 16,
+      "textureFamily": "straight",
+      "shot": "Client bob install with a closure, side part, studio light.",
+      "credit": "Shared by a Monsuki client"
+    },
+    {
+      "handle": "kinky-curly-ponytail",
+      "length": 22,
+      "textureFamily": "curly",
+      "shot": "Client at a rooftop brunch, curly ponytail, gold earrings.",
+      "credit": "Shared by a Monsuki client"
+    }
+  ]
+}

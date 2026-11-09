@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Monsuki</title>
+  <meta name="description" content="Raw Vietnamese human hair by Monsuki.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@400;500&display=swap">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="config.js"></script>
+</head>
+<body>
+  <div data-section="header"></div>
+
+  <!-- Detail / Record: one product. product.html?id=<handle> (no client routing — safe to refresh) -->
+  <main id="main" class="container">
+    <nav class="crumbs" aria-label="Breadcrumb" data-crumbs></nav>
+    <div class="pdp">
+      <div class="pdp__gallery" data-section="gallery"></div>
+      <div class="pdp__info" data-section="info" aria-busy="true"></div>
+    </div>
+  </main>
+
+  <!-- Sticky add-to-bag bar (mobile) -->
+  <div class="buybar" data-buybar hidden>
+    <p class="buybar__summary" aria-live="polite"><span data-buybar-summary></span><strong data-buybar-price></strong></p>
+    <button class="btn btn--primary" type="submit" form="buy-form">Add to bag</button>
+  </div>
+
+  <div data-section="footer"></div>
+  <script type="module" src="assets/js/pages/product.js"></script>
+</body>
+</html>

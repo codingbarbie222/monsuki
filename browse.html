@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Every piece — Monsuki</title>
+  <meta name="description" content="Browse every Monsuki piece: bundles, HD lace wigs, frontals, closures, ponytails and aftercare.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@400;500&display=swap">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="config.js"></script>
+</head>
+<body>
+  <div data-section="header"></div>
+
+  <!-- Product listing: title → filters → product cards -->
+  <main id="main" class="container section" style="padding-top:clamp(40px,7vw,88px)">
+    <div class="section-head" data-reveal>
+      <p class="eyebrow">Take your time</p>
+      <h1>Every piece</h1>
+      <p class="lede">The full Monsuki collection in one place — hair, finishing pieces and aftercare.</p>
+    </div>
+
+    <div class="filters">
+      <div class="chips" role="group" aria-label="Filter by category" data-chips></div>
+      <div class="filters__row">
+        <p class="small muted" data-count aria-live="polite"></p>
+        <label class="mini-field" style="min-width:200px">
+          <span class="mini-field__label">Texture</span>
+          <span class="select-wrap"><select class="select" data-texture>
+            <option value="all">All textures</option>
+            <option value="straight">Straight</option>
+            <option value="curly">Curly</option>
+          </select>
+          <svg class="icon icon--sm" aria-hidden="true"><use href="assets/icons.svg#chevron-down"></use></svg></span>
+        </label>
+      </div>
+    </div>
+
+    <div class="grid-frame" data-section="product-grid"></div>
+  </main>
+
+  <div data-section="footer"></div>
+  <script type="module" src="assets/js/pages/browse.js"></script>
+</body>
+</html>

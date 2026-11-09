@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Monsuki — What are you looking for?</title>
+  <meta name="description" content="Monsuki: premium raw Vietnamese human hair — bundles, HD lace wigs, frontals, closures and ponytails — with a bespoke colouring service.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@400;500&display=swap">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="config.js"></script>
+</head>
+<body>
+  <div data-section="header"></div>
+
+  <!-- Section: intent picker (SHOPIFY: sections/intent-picker.liquid, 3 blocks) -->
+  <main id="main" class="container welcome">
+    <div class="welcome__head" data-reveal>
+      <p class="eyebrow">Welcome to Monsuki</p>
+      <h1>What are you looking for?</h1>
+      <p class="lede">Tell us where you’d like to begin, and we’ll shape the rest around you.</p>
+    </div>
+
+    <div class="intent-cards">
+      <a class="intent-card" href="shop.html?intent=none" data-reveal>
+        <span class="intent-card__media">
+          <span class="ph" role="img" aria-label="Model with long jet-black silk straight hair, editorial portrait">
+            <span class="ph__tag">Image placeholder</span>
+            <span class="ph__shot">Portrait of a model with long, jet-black silk straight hair, shoulders bare, warm ivory backdrop.</span>
+          </span>
+        </span>
+        <span class="intent-card__body">
+          <span class="intent-card__letter">i.</span>
+          <span class="intent-card__title serif">Hair extensions &amp; wigs</span>
+          <span class="muted">Bundles, HD lace wigs, frontals, closures and ponytails.</span>
+          <span class="intent-card__cta">Explore the collection <svg class="icon icon--sm" aria-hidden="true"><use href="assets/icons.svg#arrow-right"></use></svg></span>
+        </span>
+      </a>
+
+      <a class="intent-card" href="colouring.html" data-reveal>
+        <span class="intent-card__media">
+          <span class="ph" role="img" aria-label="Close-up of honey blonde hair being finished by a colourist">
+            <span class="ph__tag">Image placeholder</span>
+            <span class="ph__shot">Close-up of a colourist’s hands finishing honey-blonde hair, soft daylight, studio setting.</span>
+          </span>
+        </span>
+        <span class="intent-card__body">
+          <span class="intent-card__letter">ii.</span>
+          <span class="intent-card__title serif">Colouring service</span>
+          <span class="muted">Bespoke colour for hair you’ve bought from Monsuki.</span>
+          <span class="intent-card__cta">Discover colouring <svg class="icon icon--sm" aria-hidden="true"><use href="assets/icons.svg#arrow-right"></use></svg></span>
+        </span>
+      </a>
+
+      <a class="intent-card" href="shop.html?intent=both" data-reveal>
+        <span class="intent-card__media">
+          <span class="ph" role="img" aria-label="Model with defined curls coloured a warm auburn copper">
+            <span class="ph__tag">Image placeholder</span>
+            <span class="ph__shot">Model with lush, defined curls in a warm auburn copper, three-quarter turn, espresso backdrop.</span>
+          </span>
+        </span>
+        <span class="intent-card__body">
+          <span class="intent-card__letter">iii.</span>
+          <span class="intent-card__title serif">Both — hair &amp; colour</span>
+          <span class="muted">Choose your hair and we’ll keep your colour in mind as you shop.</span>
+          <span class="intent-card__cta">Begin with both <svg class="icon icon--sm" aria-hidden="true"><use href="assets/icons.svg#arrow-right"></use></svg></span>
+        </span>
+      </a>
+    </div>
+
+    <p class="welcome__browse"><a class="link" href="browse.html">I’m just browsing</a></p>
+  </main>
+
+  <div data-section="footer"></div>
+  <script type="module">
+    import { initChrome } from './assets/js/chrome.js';
+    initChrome('index.html');
+  </script>
+</body>
+</html>

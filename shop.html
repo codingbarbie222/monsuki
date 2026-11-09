@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The collection — Monsuki</title>
+  <meta name="description" content="Bundles, HD lace wigs, frontals, closures and ponytails in raw Vietnamese human hair.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@400;500&display=swap">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="config.js"></script>
+</head>
+<body>
+  <div data-section="header"></div>
+  <div data-section="intent-note"></div>
+
+  <main id="main">
+    <!-- Section: hero-split (SHOPIFY: sections/hero-split.liquid, 2 blocks) -->
+    <section class="hero-split" aria-label="Choose a texture">
+      <a class="hero-split__half" href="?texture=straight#collection" data-texture-link="straight">
+        <span class="ph" role="img" aria-label="Model with silky jet-black straight hair">
+          <span class="ph__tag">Image placeholder</span>
+          <span class="ph__shot">Model with silky, jet-black straight hair falling past her shoulders; profile, warm ivory backdrop.</span>
+        </span>
+        <span class="hero-split__label"><span>Straight</span><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-right"></use></svg></span>
+      </a>
+      <a class="hero-split__half" href="?texture=curly#collection" data-texture-link="curly">
+        <span class="ph ph--dark" role="img" aria-label="Model with lush defined curls">
+          <span class="ph__tag">Image placeholder</span>
+          <span class="ph__shot">Model with lush, defined curls with real volume; facing camera, espresso backdrop, soft rim light.</span>
+        </span>
+        <span class="hero-split__label"><span>Curly</span><svg class="icon" aria-hidden="true"><use href="assets/icons.svg#arrow-right"></use></svg></span>
+      </a>
+    </section>
+
+    <div class="container hero-intro" data-reveal>
+      <p class="eyebrow">The collection</p>
+      <h1>Hair that moves like it’s yours</h1>
+      <p class="lede">Raw Vietnamese hair from single donors, double drawn and hand-checked in our studio. Choose your texture to begin.</p>
+    </div>
+
+    <!-- Texture toggle: filters everything below -->
+    <div class="texture-bar" id="collection">
+      <div class="container texture-bar__inner">
+        <span class="small muted" id="texture-label">Texture</span>
+        <div class="segmented" role="radiogroup" aria-labelledby="texture-label">
+          <label><input type="radio" name="texture" value="straight" checked><span>Straight</span></label>
+          <label><input type="radio" name="texture" value="curly"><span>Curly</span></label>
+        </div>
+      </div>
+    </div>
+
+    <!-- Section: category-grid -->
+    <section class="section container" aria-labelledby="cat-title" style="padding-bottom:0">
+      <div class="section-head">
+        <h2 id="cat-title">Shop by piece</h2>
+      </div>
+      <div data-section="category-grid"></div>
+    </section>
+
+    <!-- Section: product-grid -->
+    <section class="section container" aria-labelledby="grid-title" id="pieces">
+      <div class="grid-head">
+        <h2 id="grid-title">Straight pieces</h2>
+        <button class="link" type="button" data-clear-category hidden>Show every category</button>
+      </div>
+      <div class="grid-frame" data-section="product-grid" aria-live="polite"></div>
+    </section>
+
+    <!-- Section: lookbook -->
+    <section class="section section--dark on-dark" aria-labelledby="look-title" data-section="lookbook">
+      <div class="container">
+        <div class="carousel-head">
+          <div class="section-head" style="margin:0">
+            <p class="eyebrow">Worn by you</p>
+            <h2 id="look-title">The lookbook</h2>
+          </div>
+          <div data-lookbook-nav></div>
+        </div>
+        <div class="track" data-track tabindex="0" aria-label="Client looks, scroll sideways"></div>
+      </div>
+    </section>
+  </main>
+
+  <div data-section="footer"></div>
+  <script type="module" src="assets/js/pages/shop.js"></script>
+</body>
+</html>
