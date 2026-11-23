@@ -118,14 +118,14 @@
       ],
       "images": [
         {
-          "type": "product",
+          "type": "model",
           "src": "images/S_main_model_mes.jpg",
           "alt": "Silk Straight bundles, product shot",
           "shot": "Three silk straight bundles fanned out on warm ivory linen, soft daylight from the left."
         },
         {
-          "type": "model",
-          "src": "images/IMG_8935.JPG",
+          "type": "product",
+          "src": "images/straight_bundle_ends.JPG",
           "alt": "Model wearing Silk Straight bundles",
           "shot": "Model with deep brown skin wearing silk straight hair at 24″, three-quarter view, onyx backdrop."
         },
@@ -346,14 +346,14 @@
       ],
       "images": [
         {
-          "type": "product",
+          "type": "model",
           "src": "images/kc_model_main.JPG",
           "alt": "Kinky Curly bundles, product shot",
           "shot": "Three kinky curly bundles fanned out on warm ivory linen, soft daylight from the left."
         },
         {
-          "type": "model",
-          "src": "",
+          "type": "product",
+          "src": "images/Kinky_curly_bundles_product_shot.JPG",
           "alt": "Model wearing Kinky Curly bundles",
           "shot": "Model with deep brown skin wearing kinky curly hair at 24″, three-quarter view, onyx backdrop."
         },
