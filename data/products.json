@@ -1350,6 +1350,10 @@
       "textureFamily": "straight",
       "shot": "Client bob install with a closure, side part, studio light.",
       "credit": "Shared by a Monsuki client"
+      "images": [
+        {
+          "type": "product",
+          "src": "images/UGC_S.JPG",
     },
     {
       "handle": "kinky-curly-ponytail",
