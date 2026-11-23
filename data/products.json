@@ -119,7 +119,7 @@
       "images": [
         {
           "type": "product",
-          "src": "images/s_model_main.JPG",
+          "src": "images/S_main_model_mes.jpg",
           "alt": "Silk Straight bundles, product shot",
           "shot": "Three silk straight bundles fanned out on warm ivory linen, soft daylight from the left."
         },
@@ -232,14 +232,14 @@
       ],
       "images": [
         {
-          "type": "product",
-          "src": "images/bw_model_main.JPG",
+          "type": "model",
+          "src": "images/BW_MAIN_MODEL.jpg",
           "alt": "Deep Wave bundles, product shot",
           "shot": "Three deep wave bundles fanned out on warm ivory linen, soft daylight from the left."
         },
         {
-          "type": "model",
-          "src": "",
+          "type": "product",
+          "src": "images/BW_PROD.JPG",
           "alt": "Model wearing Deep Wave bundles",
           "shot": "Model with deep brown skin wearing deep wave hair at 24″, three-quarter view, onyx backdrop."
         },
@@ -447,7 +447,7 @@
       "images": [
         {
           "type": "product",
-          "src": "",
+          "src": "images/HD_front_S.JPG",
           "alt": "Silk Straight HD lace wig on a mannequin",
           "shot": "Silk Straight wig on a matte ivory mannequin head, side-lit, against a warm ivory wall."
         },
