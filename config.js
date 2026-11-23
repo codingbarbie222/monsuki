@@ -14,7 +14,7 @@ window.MONSUKI_CONFIG = {
   // Leave key empty to run in demo mode (a confirmation screen, nothing is sent).
   formService: { provider: 'web3forms', key: '' },
 
-  currency: { code: 'EUR', locale: 'en-EUR' },
+  currency: { code: 'GBP', locale: 'en-GBP' },
 
   // Colour price list. 1B is the natural colour of the hair and is included.
   // price = added to each piece (per bundle, wig, frontal…) for the colouring service.
