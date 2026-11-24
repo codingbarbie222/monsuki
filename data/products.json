@@ -120,14 +120,14 @@
         {
           "type": "model",
           "src": "images/S_main_model_mes.jpg",
-          "alt": "Silk Straight bundles, product shot",
-          "shot": "Three silk straight bundles fanned out on warm ivory linen, soft daylight from the left."
+          "alt": "Model wearing Silk Straight bundles",
+          "shot": "Model with deep brown skin wearing silk straight hair at 24″, three-quarter view, onyx backdrop."
         },
         {
           "type": "product",
           "src": "images/straight_bundle_ends.JPG",
-          "alt": "Model wearing Silk Straight bundles",
-          "shot": "Model with deep brown skin wearing silk straight hair at 24″, three-quarter view, onyx backdrop."
+          "alt": "Silk Straight bundles, product shot",
+          "shot": "Three silk straight bundles fanned out on warm ivory linen, soft daylight from the left."
         },
         {
           "type": "model",
@@ -234,14 +234,14 @@
         {
           "type": "model",
           "src": "images/BW_MAIN_MODEL.jpg",
-          "alt": "Deep Wave bundles, product shot",
-          "shot": "Three deep wave bundles fanned out on warm ivory linen, soft daylight from the left."
+          "alt": "Model wearing Deep Wave bundles",
+          "shot": "Model with deep brown skin wearing deep wave hair at 24″, three-quarter view, onyx backdrop."
         },
         {
           "type": "product",
           "src": "images/BW_PROD.JPG",
-          "alt": "Model wearing Deep Wave bundles",
-          "shot": "Model with deep brown skin wearing deep wave hair at 24″, three-quarter view, onyx backdrop."
+          "alt": "Deep Wave bundles, product shot",
+          "shot": "Three deep wave bundles fanned out on warm ivory linen, soft daylight from the left."
         },
         {
           "type": "model",
@@ -348,14 +348,14 @@
         {
           "type": "model",
           "src": "images/kc_model_main.JPG",
-          "alt": "Kinky Curly bundles, product shot",
-          "shot": "Three kinky curly bundles fanned out on warm ivory linen, soft daylight from the left."
+          "alt": "Model wearing Kinky Curly bundles",
+          "shot": "Model with deep brown skin wearing kinky curly hair at 24″, three-quarter view, onyx backdrop."
         },
         {
           "type": "product",
           "src": "images/Kinky_curly_bundles_product_shot.JPG",
-          "alt": "Model wearing Kinky Curly bundles",
-          "shot": "Model with deep brown skin wearing kinky curly hair at 24″, three-quarter view, onyx backdrop."
+          "alt": "Kinky Curly bundles, product shot",
+          "shot": "Three kinky curly bundles fanned out on warm ivory linen, soft daylight from the left."
         },
         {
           "type": "model",
@@ -472,17 +472,17 @@
       ]
     },
     {
-      "handle": "bodywave-hd-lace-wig",
-      "title": "bodywave HD Lace Wig",
+      "handle": "deep-wave-hd-lace-wig",
+      "title": "Deep Wave HD Lace Wig",
       "category": "wigs",
-      "texture": "bodywave",
-      "textureLabel": "Bodywave",
-      "textureFamily": "Bodywave",
+      "texture": "deep-wave",
+      "textureLabel": "Deep Wave",
+      "textureFamily": "curly",
       "summary": "13×4 HD lace that melts into every skin tone.",
       "description": "A ready-to-wear deep wave unit on transparent HD lace, pre-plucked with a natural hairline and bleached knots. Fitted to your measurements or cap size, so it sits flat and secure from the first wear.",
       "specs": {
         "origin": "Vietnam — raw, single-donor hair, cuticles aligned",
-        "texture": "Bodywave",
+        "texture": "Deep Wave",
         "density": "200% density",
         "laceType": "13×4 HD lace frontal, pre-plucked, bleached knots",
         "lifespan": "2–3 years with care"
@@ -547,8 +547,8 @@
       "images": [
         {
           "type": "product",
-          "src": "images/bodywave_wig.JPG",
-          "alt": "Bodywave HD lace wig on a mannequin",
+          "src": "",
+          "alt": "Deep Wave HD lace wig on a mannequin",
           "shot": "Deep Wave wig on a matte ivory mannequin head, side-lit, against a warm ivory wall."
         },
         {
@@ -1303,31 +1303,25 @@
   ],
   "lookbook": [
     {
-      "handle": "bodywave-bundles",
-      "length": 20,
-      "textureFamily": "bodywave",
+      "handle": "silk-straight-bundles",
+      "length": 24,
+      "textureFamily": "straight",
       "shot": "Client mirror selfie: sleek middle part, 24\" silk straight, gold hoops.",
-      "credit": "Shared by a Monsuki client",
-      "src": "images/UGC_H_BW.JP",
-      "alt": "Client wearing a bob install with the Silk Straight closure"
+      "credit": "Shared by a Monsuki client"
     },
     {
-      "handle": "blonde-bundles",
+      "handle": "kinky-curly-bundles",
       "length": 20,
-      "textureFamily": "bodywave",
+      "textureFamily": "curly",
       "shot": "Client at a dinner table, full kinky curls framing her face, candlelight.",
-      "credit": "Shared by a Monsuki client",
-      "src": "images/UGC_BLONDE.JPG",
-      "alt": "Client wearing an install dyed by Monsuki"
+      "credit": "Shared by a Monsuki client"
     },
     {
       "handle": "silk-straight-hd-lace-wig",
       "length": 28,
       "textureFamily": "straight",
       "shot": "Client on a hotel balcony, wind lifting 28\" straight hair.",
-      "credit": "Shared by a Monsuki client",
-      "src": "images/UGC_s_bundles_1.JPG",
-      "alt": "Client wearing a bob install with the Silk Straight closure"
+      "credit": "Shared by a Monsuki client"
     },
     {
       "handle": "deep-wave-bundles",
@@ -1335,8 +1329,6 @@
       "textureFamily": "curly",
       "shot": "Client in a cream suit, deep waves over one shoulder, city at dusk.",
       "credit": "Shared by a Monsuki client"
-      "src": "images/UGC_H_BW.JPG",
-      "alt": "Client wearing a bob install with the Silk Straight closure"
     },
     {
       "handle": "sleek-straight-ponytail",
@@ -1347,12 +1339,10 @@
     },
     {
       "handle": "kinky-curly-hd-lace-wig",
-      "length": 26,
+      "length": 18,
       "textureFamily": "curly",
       "shot": "Client laughing in a car, curly wig with a defined hairline.",
       "credit": "Shared by a Monsuki client"
-      "src": "images/UGC_KINKYCURLY.JPG",
-      "alt": "Client wearing a kinky curly hd lace wig"
     },
     {
       "handle": "silk-straight-hd-lace-closure",
@@ -1360,7 +1350,7 @@
       "textureFamily": "straight",
       "shot": "Client bob install with a closure, side part, studio light.",
       "credit": "Shared by a Monsuki client",
-      "src": "images/UGC_H_BW.JPG",
+      "src": "images/UGC_S.JPG",
       "alt": "Client wearing a bob install with the Silk Straight closure"
     },
     {
@@ -1368,9 +1358,7 @@
       "length": 22,
       "textureFamily": "curly",
       "shot": "Client at a rooftop brunch, curly ponytail, gold earrings.",
-      "credit": "Shared by a Monsuki client",
-      "src": "images/UGC_KINKY CURLY.JPG",
-      "alt": "Client wearing a kinky curly ponytail"
+      "credit": "Shared by a Monsuki client"
     }
   ]
 }
