@@ -263,10 +263,11 @@ body.has-buybar .toast { bottom: 104px; }
 /* ---------- Texture toggle ---------- */
 .texture-bar { position: sticky; top: var(--header-h); z-index: 30; background: var(--ivory); border-bottom: 1px solid var(--line); }
 .texture-bar__inner { display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); min-height: 64px; }
+@media (max-width: 767.98px) { .texture-bar #texture-label { display: none; } .texture-bar__inner { justify-content: center; } }
 .segmented { display: inline-flex; border: 1px solid var(--onyx); }
 .segmented label { position: relative; }
 .segmented input { position: absolute; opacity: 0; inset: 0; cursor: pointer; }
-.segmented span { display: grid; place-items: center; min-height: 44px; min-width: 104px; padding: 0 20px; font-size: 0.9375rem; transition: background var(--fade) var(--ease), color var(--fade) var(--ease); }
+.segmented span { display: grid; place-items: center; min-height: 44px; min-width: 88px; padding: 0 16px; white-space: nowrap; font-size: 0.9375rem; transition: background var(--fade) var(--ease), color var(--fade) var(--ease); }
 .segmented input:checked + span { background: var(--onyx); color: var(--on-dark); }
 .segmented input:focus-visible + span { outline: 1.5px solid var(--espresso); outline-offset: 3px; }
 
