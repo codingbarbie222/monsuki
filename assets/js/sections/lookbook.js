@@ -1,7 +1,7 @@
 // Section: lookbook / customer looks carousel. Each tile names the piece worn and links to it.
 // SHOPIFY: sections/lookbook.liquid with blocks (image, product, length) — or a UGC app.
 import { esc, icon, findProduct, productUrl, smoothScroll, reveal } from '../core.js';
-import { shot } from '../media.js';
+import { media } from '../media.js';
 
 export function renderLookbook(el, data, looks) {
   const track = el.querySelector('[data-track]');
@@ -15,7 +15,7 @@ export function renderLookbook(el, data, looks) {
     const piece = `${p.title}, ${l.length}″`;
     return `
     <a class="look" href="${productUrl(p.handle, { length: l.length })}" data-reveal aria-label="Client look. Wearing: ${esc(piece)}. View the piece.">
-      <span class="look__media">${shot(l.shot, { dark: true })}</span>
+      <span class="look__media">${media({ src: l.src || '', alt: l.alt || l.shot, shot: l.shot }, { dark: true })}</span>
       <span class="look__wearing">Wearing: <strong>${esc(piece)}</strong></span>
       <span class="look__credit">${esc(l.credit)}</span>
     </a>`;
