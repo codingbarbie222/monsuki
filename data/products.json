@@ -472,17 +472,17 @@
       ]
     },
     {
-      "handle": "deep-wave-hd-lace-wig",
-      "title": "Deep Wave HD Lace Wig",
+      "handle": "bodywave-hd-lace-wig",
+      "title": "bodywave HD Lace Wig",
       "category": "wigs",
-      "texture": "deep-wave",
-      "textureLabel": "Deep Wave",
-      "textureFamily": "curly",
+      "texture": "bodywave",
+      "textureLabel": "Bodywave",
+      "textureFamily": "Bodywave",
       "summary": "13×4 HD lace that melts into every skin tone.",
       "description": "A ready-to-wear deep wave unit on transparent HD lace, pre-plucked with a natural hairline and bleached knots. Fitted to your measurements or cap size, so it sits flat and secure from the first wear.",
       "specs": {
         "origin": "Vietnam — raw, single-donor hair, cuticles aligned",
-        "texture": "Deep Wave",
+        "texture": "Bodywave",
         "density": "200% density",
         "laceType": "13×4 HD lace frontal, pre-plucked, bleached knots",
         "lifespan": "2–3 years with care"
@@ -547,8 +547,8 @@
       "images": [
         {
           "type": "product",
-          "src": "",
-          "alt": "Deep Wave HD lace wig on a mannequin",
+          "src": "images/bodywave_wig.JPG",
+          "alt": "Bodywave HD lace wig on a mannequin",
           "shot": "Deep Wave wig on a matte ivory mannequin head, side-lit, against a warm ivory wall."
         },
         {
@@ -1303,25 +1303,31 @@
   ],
   "lookbook": [
     {
-      "handle": "silk-straight-bundles",
-      "length": 24,
-      "textureFamily": "straight",
+      "handle": "bodywave-bundles",
+      "length": 20,
+      "textureFamily": "bodywave",
       "shot": "Client mirror selfie: sleek middle part, 24\" silk straight, gold hoops.",
-      "credit": "Shared by a Monsuki client"
+      "credit": "Shared by a Monsuki client",
+      "src": "images/UGC_H_BW.JP",
+      "alt": "Client wearing a bob install with the Silk Straight closure"
     },
     {
-      "handle": "kinky-curly-bundles",
+      "handle": "blonde-bundles",
       "length": 20,
-      "textureFamily": "curly",
+      "textureFamily": "bodywave",
       "shot": "Client at a dinner table, full kinky curls framing her face, candlelight.",
-      "credit": "Shared by a Monsuki client"
+      "credit": "Shared by a Monsuki client",
+      "src": "images/UGC_BLONDE.JPG",
+      "alt": "Client wearing an install dyed by Monsuki"
     },
     {
       "handle": "silk-straight-hd-lace-wig",
       "length": 28,
       "textureFamily": "straight",
       "shot": "Client on a hotel balcony, wind lifting 28\" straight hair.",
-      "credit": "Shared by a Monsuki client"
+      "credit": "Shared by a Monsuki client",
+      "src": "images/UGC_s_bundles_1.JPG",
+      "alt": "Client wearing a bob install with the Silk Straight closure"
     },
     {
       "handle": "deep-wave-bundles",
@@ -1329,6 +1335,8 @@
       "textureFamily": "curly",
       "shot": "Client in a cream suit, deep waves over one shoulder, city at dusk.",
       "credit": "Shared by a Monsuki client"
+      "src": "images/UGC_H_BW.JPG",
+      "alt": "Client wearing a bob install with the Silk Straight closure"
     },
     {
       "handle": "sleek-straight-ponytail",
@@ -1339,28 +1347,30 @@
     },
     {
       "handle": "kinky-curly-hd-lace-wig",
-      "length": 18,
+      "length": 26,
       "textureFamily": "curly",
       "shot": "Client laughing in a car, curly wig with a defined hairline.",
       "credit": "Shared by a Monsuki client"
+      "src": "images/UGC_KINKYCURLY.JPG",
+      "alt": "Client wearing a kinky curly hd lace wig"
     },
     {
       "handle": "silk-straight-hd-lace-closure",
       "length": 16,
       "textureFamily": "straight",
       "shot": "Client bob install with a closure, side part, studio light.",
-      "credit": "Shared by a Monsuki client"
-      "images": [
-        {
-          "type": "product",
-          "src": "images/UGC_S.JPG",
+      "credit": "Shared by a Monsuki client",
+      "src": "images/UGC_H_BW.JPG",
+      "alt": "Client wearing a bob install with the Silk Straight closure"
     },
     {
       "handle": "kinky-curly-ponytail",
       "length": 22,
       "textureFamily": "curly",
       "shot": "Client at a rooftop brunch, curly ponytail, gold earrings.",
-      "credit": "Shared by a Monsuki client"
+      "credit": "Shared by a Monsuki client",
+      "src": "images/UGC_KINKY CURLY.JPG",
+      "alt": "Client wearing a kinky curly ponytail"
     }
   ]
 }
