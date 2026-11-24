@@ -6,12 +6,16 @@ import { renderLookbook, wireLookbook, lookbookNav } from '../sections/lookbook.
 
 initChrome('shop.html');
 
+// Texture options come from the switch in shop.html. Each value must match a product's
+// "texture" in data/products.json (e.g. silk-straight, deep-wave, kinky-curly).
+const TEXTURE_NAME = Object.fromEntries([...document.querySelectorAll('input[name="texture"]')]
+  .map((r) => [r.value, r.nextElementSibling.textContent.trim()]));
+const TEXTURES = Object.keys(TEXTURE_NAME);
 const params = new URLSearchParams(location.search);
 const state = {
-  texture: params.get('texture') === 'curly' ? 'curly' : 'straight',
+  texture: TEXTURES.includes(params.get('texture')) ? params.get('texture') : TEXTURES[0],
   category: params.get('category') || null,
 };
-const TEXTURE_NAME = { straight: 'Straight', curly: 'Curly' };
 
 /* ---------- "Both" intent note ---------- */
 function renderIntentNote() {
@@ -50,7 +54,7 @@ function syncUrl() {
 
 function render() {
   const shopCats = data.categories.filter((c) => !c.hiddenInShop);
-  const inTexture = data.products.filter((p) => p.textureFamily === state.texture);
+  const inTexture = data.products.filter((p) => p.texture === state.texture);
   const counts = Object.fromEntries(shopCats.map((c) => [c.id, inTexture.filter((p) => p.category === c.id).length]));
 
   renderCategoryGrid(cats, shopCats, {
@@ -69,19 +73,21 @@ function render() {
   title.textContent = `${TEXTURE_NAME[state.texture]} ${catLabel}`;
   clearBtn.hidden = !state.category;
 
-  const other = state.texture === 'straight' ? 'curly' : 'straight';
+  // For the empty state, suggest another texture that does have this kind of piece
+  const other = TEXTURES.find((t) => t !== state.texture &&
+    data.products.some((p) => p.texture === t && (!state.category || p.category === state.category))) || TEXTURES[0];
   renderProductGrid(grid, list, {
     empty: {
       title: `No ${TEXTURE_NAME[state.texture].toLowerCase()} ${catLabel} just yet`,
-      text: `This piece is currently made in ${other} textures only.`,
+      text: `This piece is currently made in other textures only.`,
       actions: [
         { label: `See ${TEXTURE_NAME[other].toLowerCase()} ${catLabel}`, onAction: () => setTexture(other) },
-        { label: 'Clear all filters', onAction: () => { state.category = null; setTexture('straight'); } },
+        { label: 'Clear all filters', onAction: () => { state.category = null; setTexture(TEXTURES[0]); } },
       ],
     },
   });
 
-  renderLookbook(look, data, data.lookbook.filter((l) => l.textureFamily === state.texture));
+  renderLookbook(look, data, data.lookbook.filter((l) => data.products.find((p) => p.handle === l.handle)?.texture === state.texture));
 }
 
 function setTexture(t) {

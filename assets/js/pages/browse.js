@@ -28,7 +28,7 @@ function render() {
   const list = data.products.filter((p) =>
     (state.category === 'all' || p.category === state.category) &&
     // Aftercare suits every texture, so it stays visible under any texture filter
-    (state.texture === 'all' || !p.textureFamily || p.textureFamily === state.texture));
+    (state.texture === 'all' || !p.texture || p.texture === state.texture));
   count.textContent = `${list.length} ${list.length === 1 ? 'piece' : 'pieces'}`;
 
   renderProductGrid(grid, list, {

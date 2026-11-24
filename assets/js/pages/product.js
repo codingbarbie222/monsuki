@@ -42,7 +42,7 @@ function render(data, product) {
 
   const cat = data.categories.find((c) => c.id === product.category);
   document.querySelector('[data-crumbs]').innerHTML = `
-    <a href="${product.aftercare ? 'browse.html?category=aftercare' : `shop.html?texture=${product.textureFamily}&category=${product.category}`}">${esc(cat?.label || 'Shop')}</a>
+    <a href="${product.aftercare ? 'browse.html?category=aftercare' : `shop.html?texture=${product.texture}&category=${product.category}`}">${esc(cat?.label || 'Shop')}</a>
     <span aria-hidden="true">/</span><span aria-current="page">${esc(product.title)}</span>`;
 
   renderGallery(galleryEl, product);
